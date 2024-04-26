@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 mongoose.set("strictQuery", false);
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/fitness-tracker", {
+mongoose.connect("mongodb+srv://adityabhagat525:ola09876@workoutbuddy.jbttwkc.mongodb.net/?retryWrites=true&w=majority&appName=workoutbuddy" || "mongodb://localhost/fitness-tracker", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }, err => {
