@@ -3,7 +3,7 @@ const path = require("path");
 const routes = require("./routes");
 const db = require("./config/connection");
 
-const PORT =3001;
+const PORT =3002;
 const app = express();
 
 app.use(express.urlencoded({ extended: true }));
