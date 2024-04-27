@@ -18,7 +18,7 @@ if (process.env.NODE_ENV === "production") {
 
 // Serve index.html for all routes in production
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../build/index.html'));
+  res.sendFile(path.join(__dirname, '../index.html'));
 });
 
 // Register API routes
